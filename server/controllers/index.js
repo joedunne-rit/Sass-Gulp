@@ -11,6 +11,7 @@ const example3 = (req, res) => {
 };
 
 const getSongs = (req, res) => {
+  console.log("wait what am I doing here?");
   return res.json([
     { artist: 'c418', title: 'Minecraft' },
     { artist: 'Chris Tilton', title: 'SimCity, 2019' },
